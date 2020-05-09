@@ -1,0 +1,18 @@
+#miniatura {
+  text-align: center;
+}
+#miniatura img {
+  width: 200px;
+  height: 180px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#maior {
+  text-align: center;
+}
+
+#maior img {
+  width: 700px;
+  height: 610px;
+}
