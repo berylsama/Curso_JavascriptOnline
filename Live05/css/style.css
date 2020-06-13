@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#paginas {
+  background-color: rgba(46, 38, 53, 0.8);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+#paginas a {
+  color: white;
+  font-family: arial;
+  text-decoration: none;
+  padding: 2px;
+  margin: 2px;
+}
+#paginas a:hover {
+  color: rgba(132, 2, 245, 0.8);
+  transition: ease 2s;
+}
+
+#saida {
+  width: 70%;
+  background-color: white;
+  box-shadow: 0 0 10px silver;
+  padding-top: 100px;
+  margin: 0 auto;
+  display: table;
+}
+#saida div {
+  width: 32%;
+  float: left;
+  margin: 5px;
+  height: 1000px;
+}
+#saida div img {
+  width: 100%;
+}
